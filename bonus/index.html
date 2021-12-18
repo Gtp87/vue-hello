@@ -13,9 +13,13 @@
     <div id="app">
         <h1>{{ message }}</h1>
         <img :src="image" alt="">
+        <div>
+            <input v-model='text'>
+            {{ text }}
+        </div>
     </div>
 
-    <input v-model='text'>
+    
     <script src="js/script.js"></script>
 </body>
 
