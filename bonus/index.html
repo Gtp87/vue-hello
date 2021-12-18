@@ -17,6 +17,12 @@
             <input v-model='text'>
             {{ text }}
         </div>
+
+        <div>
+            <img :src="productImg" alt="">
+            <p>prodotti desiderati: {{ product }} </p>
+            <button @click="add">Clicca per aggiungere</button>
+        </div>
     </div>
 
     

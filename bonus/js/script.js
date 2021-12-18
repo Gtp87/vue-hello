@@ -8,6 +8,14 @@ const app = new Vue({
     data: {
         message: 'Hello World',
         image: 'https://picsum.photos/300/300',
-        text: ''
+        text: '',
+        productImg: 'https://picsum.photos/300/200',
+        product: 0
     },
+
+    methods: {
+        add: function () {
+            return this.product += 1
+        }
+    }
 })
