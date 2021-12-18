@@ -12,6 +12,6 @@ const app = new Vue ({
 
     data: {
         message: 'Hello World',
-        image: 'https://picsum.photos/200/300'
+        image: 'https://picsum.photos/300/300'
     },
 })
